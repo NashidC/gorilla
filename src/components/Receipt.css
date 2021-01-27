@@ -1,0 +1,21 @@
+.receipt-container {
+  display: flex;
+	flex-direction: row;
+  width: 50%;
+  margin: auto;
+  border: 2px solid black;
+  
+}
+
+.receipt-container ul {
+  list-style-type: none;
+}
+
+.receipt-container ul li {
+  margin: 5px 0;
+}
+
+.cost, .cost-amount {
+  font-weight: bold;
+  color: #c30e72;
+}
